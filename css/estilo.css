@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url(../img/fundo.webp);
+	background-repeat: no-repeat;
+	background-size:100vw 100vh;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	width: 50vw;
+	height: 40vh;
+	margin-left: 25vw;
+	background-color: #DED5BD;
+	margin-top:30vh;
+	border-radius:16px;
+	flex-direction: column;
+	text-align: center;
+	border-color: black;
+}
+section.menu div{
+	width: 60%;
+	background-color:white;
+	border:2px solid white;
+	margin-left: 20%;
+	margin-bottom: 3%;
+	border-radius: 16px;
+
+}
+section.menu div a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+section.menu div:hover{
+	background-color:orange;
+}
+section.cabecalho{
+	width: 60vw;
+	height: 10vh;
+	margin-left: 29vw;
+}
